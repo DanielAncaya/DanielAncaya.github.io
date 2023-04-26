@@ -59,7 +59,7 @@
     <br>
     <br>
     <h2>Escoge tu pokemon</h2>
-    <form action="base.html" method="post">
+    <form action="base.html" method="get">
         <label for="pokemon">pokemon:</label>
         <input type="text" name="pokemon" id="pokemon">
         <label for="tipo">tipo:</label>
@@ -67,6 +67,32 @@
         <label for="password">contraseña:</label>
         <input type="password" name="password" id="password">
         <input type="submit" value="enviar">
+        <br>
+        <label for="fecha">Escoge la fecha</label>
+        <input type="date" name="fecha" id="fecha"> <br>
+        <br>
+        <label for="opcion1">Escoge el lenguaje</label> <br> <br>
+        <input type="radio" name="opciones" id="" value="CSS">
+        <label for="opciones">CSS</label> <br>
+        <input type="radio" name="opciones" id="" value="HTML">
+        <label for="opciones">HTML</label> <br>
+        <input type="radio" name="opciones" id="" value="Javascript">
+        <label for="opciones">Javascript</label> <br> <br>
+        <input type="submit" value="envía"> <br> <br>
+        <label for="fuego">Fuego</label>
+        <input type="checkbox" name="fuego" id="fuego"> <br>
+        <label for="Hielo">Hielo</label>
+        <input type="checkbox" name="Hielo " id="Hielo"> <br>
+        <label for="check3">Tierra</label>
+        <input type="checkbox" name="Tierra" id="tierra"> <br> <br>
+        <input type="submit" value="enviar"> <br> <br>
+        <label for="text">¿Qué tipo de sangre eres? <br> SOLO MAYÚSCULAS</label>
+        <input type="text" maxlength="3" pattern="[0-9]">
+        <input type="submit" value="enviar"> <br>
+        <label for="texto">DNI</label>
+        <input type="text" name="" id="" disabled>
+
+
     </form>
 </body>
 </html>
